@@ -67,7 +67,7 @@ $(function() {
   });
 
 
-  // 2. 点击菜单按钮, 进行切换菜单
+  // 2. 点击菜单按钮, 进行切换菜单(左侧边栏隐藏后侧边栏拉宽)
   $('.icon_menu').click(function() {
     $('.lt_aside').toggleClass("hidemenu");
     // 当菜单隐藏时, lt_topbar, lt_main 都不需要 padding-left 了
