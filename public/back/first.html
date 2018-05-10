@@ -54,20 +54,53 @@
 </div>
 
 
+<!--乐淘主体-->
+<div class="lt_main">
+  <!--lt_topbar-->
+  <div class="lt_topbar">
+    <a href="javascript:;" class="pull-left icon_menu">
+      <i class="glyphicon glyphicon-align-justify"></i>
+    </a>
+    <a href="javascript:;" class="pull-right icon_logout">
+      <i class="glyphicon glyphicon-log-out"></i>
+    </a>
+  </div>
+  
+  <div class="container-fluid">
+    <!--container-fluid满父容器, 会自动宽度100%, 会自己添加一个 15px内边距-->
+    
+    <!--路径导航-->
+    <ol class="breadcrumb">
+      <li><a href="index.html">管理系统</a></li>
+      <li class="active">分类管理</li>
+      <li class="active">一级分类</li>
+    </ol>
+  
+  </div>
 
 
+</div>
 
 
+<!--模态框-->
 
-
-
-
-
-
-
-
-
-
+<div class="modal fade" id="logoutModal">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span></span></button>
+        <h4 class="modal-title">温馨提示</h4>
+      </div>
+      <div class="modal-body">
+        <p class="red"><i class="glyphicon glyphicon-info-sign"></i> 您确定要退出后台管理系统吗？</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary" id="logoutBtn">退出</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 
